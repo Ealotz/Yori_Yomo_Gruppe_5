@@ -22,8 +22,10 @@ img {
   --color-textbox: #ac8c8c;
   --color-button-dark-bg: #21150d;
   --color-text-dark: #21150d;
-  --color-text-lght: #f9f5f3;
+  --color-text-light: #f9f5f3;
   --color-footer-text: #21150d; /***** set opacity: 75% **********/
+}
+
 /****FONT****/
 .julius-sans-one-regular {
   font-family: "Julius Sans One", sans-serif;
@@ -37,4 +39,49 @@ img {
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+  color: var(--color-h1);
+}
+h2 {
+  font-family: "Julius Sans One", sans-serif;
+}
+p {
+  font-family: "Instrument Sans", sans-serif;
+  color: var(--color-text-dark);
+}
+
+/******* Menu ********/
+#logotype-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3.6rem;
+}
+.search-bar {
+  border-style: hidden;
+  background-color: var(--color-bg);
+}
+.searc-button {
+  border-style: hidden;
+}
+.search-icon {
+  background-color: var(--color-bg);
+}
+.shopping-bag {
+  border-style: hidden;
+  background-color: var(--color-bg);
+}
+
+/******* Hero unit ********/
+.index-textbox {
+  background-color: var(--color-textbox);
+  color: var(--color-text-light);
+}
+
+/******* Index flere produkter ************/
+.index-flere-produkt-billeder {
+  color: var(--color-h1);
 }
