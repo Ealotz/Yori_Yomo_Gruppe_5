@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="kontakt.css">
 </head>
 
 <body>
@@ -45,15 +46,60 @@
         </nav>
     </header>
     <section class="form-info">
-        <h1>Konatkt</h1>
+        <h1>Kontakt</h1>
         <p>Hvis du kunne tænke dig at komme i kontakt med os, eller har nogen spørgsmål, så kan du udfylde formularen
             nedenfor, og
             så vil vi svare tilbage så hurtigt som muligt.</p>
     </section>
+
+
+
+    <div class="form">
+        <div class="form-row">
+            <label for="first_name">Navn</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Skriv dit fulde navn" required>
+            <span class="fejlmeddelelse"></span>
+        </div>
+
+        <div class="form-row">
+            <label for="number">Tlf.nr.</label>
+            <input type="tel" id="number" name="number" placeholder="Skriv dit telefonnummer" required>
+
+            <span class="fejlmeddelelse"></span>
+        </div>
+
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Skriv din email" required>
+            <span class="fejlmeddelelse"></span>
+        </div>
+
+        <div class="form-row">
+            <label for="comment">Kommentar</label>
+            <input type="text" id="comment" name="comment" placeholder="Skriv evt. en kommentar">
+            <span class="fejlmeddelelse"></span>
+        </div>
+
+        <a class="button2" href="">Indsend ></a>
+    </div>
+
+
     <section class="email-liste">
         <h2>Bliv en del af vores email liste</h2>
         <p>Få ekslusive tilbud og tidlig adgang til nye produkter, ved at indtaste din email forneden.</p>
     </section>
+
+    <div class="emailliste">
+
+        <div class="form-row">
+            <label for="email2">Email</label>
+            <input type="email" id="email2" name="email2" required>
+            <span class="fejlmeddelelse"></span>
+        </div>
+
+        <a class="button" href="">Indsend ></a>
+
+    </div>
 
 </body>
 

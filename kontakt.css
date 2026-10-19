@@ -1,0 +1,116 @@
+h1,
+h2 {
+  padding-bottom: 1.5rem;
+  color: #562828;
+}
+
+.form-info,
+.email-liste {
+  padding: 1.5rem;
+}
+
+.form {
+  background-color: #fcfaf9;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: baseline;
+  column-gap: 0.9rem;
+  padding-bottom: 1.5rem;
+}
+
+.form-row label {
+  text-align: left;
+  color: #21150d;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.form-row input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 0.7px solid #ac8c8c;
+  background: transparent;
+  outline: none;
+  padding: 0.5rem 0;
+  font: inherit;
+}
+
+.form-row input:focus {
+  border-bottom: 2px solid #8b7355;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #21150d;
+  font-family: "Julius Sans One", sans-serif;
+
+  border: 1px solid #21150d;
+  padding: 1rem;
+
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+.button2 {
+  display: inline-block;
+  text-decoration: none;
+  color: #21150d;
+  font-family: "Julius Sans One", sans-serif;
+
+  border: 1px solid #21150d;
+  padding: 1rem;
+
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  width: 120px;
+}
+
+.email-liste {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.emailliste {
+  margin: 0 1.5rem;
+}
+
+.emailliste .form-row {
+  grid-template-columns: 50px 1fr;
+  column-gap: 0.3rem;
+  padding-bottom: 1rem;
+}
+
+.emailliste .button {
+  margin-left: 0;
+}
+
+.form input::placeholder,
+.emailliste input::placeholder {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+#comment::placeholder {
+  padding-left: 1rem;
+}
+
+.button,
+.button2 {
+  transition: transform 0.3s ease;
+}
+
+.button:hover,
+.button2:hover {
+  transform: scale(1.05);
+}

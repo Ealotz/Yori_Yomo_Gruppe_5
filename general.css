@@ -85,3 +85,26 @@ p {
 .index-flere-produkt-billeder {
   color: var(--color-h1);
 }
+
+/**** DESKTOP ****/
+
+@media (min-width: 769px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .button,
+  .button1,
+  .button2,
+  .button3 {
+    font-size: 1.4rem;
+  }
+}

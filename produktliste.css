@@ -79,3 +79,53 @@
   gap: 10px;
   background-color: var(--color-card-bg);
 }
+
+.color {
+  width: 15px;
+}
+
+.colors_shoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 70px;
+  justify-self: right;
+}
+
+.info_shoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  width: 280px;
+  padding-top: 1rem;
+}
+
+.shoes {
+  width: 280px;
+  justify-self: center;
+  height: 280px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+p {
+  padding-bottom: 0.5rem;
+}
+
+.maryjanelayout {
+  background-color: #fcfaf9;
+  padding-top: 1rem;
+  width: 310px;
+  justify-self: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
+.button,
+.button2 {
+  transition: transform 0.3s ease;
+}
+
+.button:hover,
+.button2:hover {
+  transform: scale(1.05);
+}
