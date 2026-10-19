@@ -106,6 +106,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 2rem;
+  padding-top: 5rem;
 }
 .footer-link {
   text-decoration: none;
@@ -134,6 +135,33 @@ footer {
   border-style: solid;
   border-width: 1px;
   border-color: var(--color-text-dark);
+}
+
+.logoname {
+  width: 140px;
+  margin-left: 1rem;
+}
+
+.footerpicture {
+  width: 40px;
+  height: auto;
+  padding-left: 0.5rem;
+  justify-self: end;
+}
+
+.yori-jomo {
+  font-size: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.socials {
+  justify-self: end;
+}
+
+.creategap {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 /**** DESKTOP ****/
