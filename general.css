@@ -58,7 +58,7 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 3.6rem;
+  height: 5rem;
 }
 .search-bar {
   border-style: hidden;
@@ -69,12 +69,21 @@ p {
 }
 .search-icon {
   background-color: var(--color-bg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
 }
 .shopping-bag {
   border-style: hidden;
   background-color: var(--color-bg);
 }
-
+.shopping-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+}
 /******* Hero unit ********/
 .index-textbox {
   background-color: var(--color-textbox);
@@ -84,4 +93,26 @@ p {
 /******* Index flere produkter ************/
 .index-flere-produkt-billeder {
   color: var(--color-h1);
+}
+
+/******* Footer *************/
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem;
+}
+.footer-link {
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  color: var(--color-text-dark);
+}
+.socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 1rem;
+}
+.yori-jomo {
+  text-decoration: none;
+  font-family: "Instrument Sans", sans-serif;
+  color: var(--color-text-dark);
 }

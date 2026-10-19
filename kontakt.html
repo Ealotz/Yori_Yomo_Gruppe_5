@@ -16,36 +16,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="kontakt.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="header-menu">
             <div id="logotype-wrapper" class="logo">
-                <a href="index.html"><img src="/billeder/Logo/Logo_Yori_Yomo (bihe) 1.svg" alt="Yori Jomo logo"></a>
+                <a href="index.html"><img src="/billeder/logo/logo.svg" alt="Yori Jomo logo"></a>
             </div>
             <ul class="menu">
                 <li>
-                    <a href="produktliste.html">Produkter</a>
+                    <a class="menu-link" href="produktliste.html">Produkter</a>
                 </li>
                 <li>
-                    <a href="omos.html">Om os</a>
+                    <a class="menu-link" href="omos.html">Om os</a>
                 </li>
                 <li>
-                    <a href="kontakt.html">Kontakt</a>
+                    <a class="menu-link" href="kontakt.html">Kontakt</a>
                 </li>
             </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
             <input class="search-bar" type="text" placeholder="Search..">
             <button class="searc-button" type="submit">
                 <i><img class="search-icon" src="billeder/ikoner/search_icon.svg" alt=""></i>
             </button>
             <button class="shopping-bag">
-                <img src="billeder/ikoner/shopping_bag_icon.svg" alt="">
+                <img class="shopping-icon" src="billeder/ikoner/shopping_bag_icon.svg" alt="">
             </button>
         </nav>
     </header>
     <section class="form-info">
-        <h1>Konatkt</h1>
+        <h1>Kontakt</h1>
         <p>Hvis du kunne tænke dig at komme i kontakt med os, eller har nogen spørgsmål, så kan du udfylde formularen
             nedenfor, og
             så vil vi svare tilbage så hurtigt som muligt.</p>
@@ -54,7 +60,27 @@
         <h2>Bliv en del af vores email liste</h2>
         <p>Få ekslusive tilbud og tidlig adgang til nye produkter, ved at indtaste din email forneden.</p>
     </section>
-
+    <footer>
+        <div>
+            <ul class="footer-links-text">
+                <li><a class="footer-link" href="kontakt.html">Kontakt</a></li>
+                <li><a class="footer-link" href="kontakt.html">Retailers</a></li>
+                <li><a class="footer-link" href="kontakt.html">Terms & Policies</a></li>
+            </ul>
+        </div>
+        <div class="mail-list-button">
+            <button>Bliv en del af vores email liste</button>
+            <p>Få ekslusive tilbud og tidlig adgang til nye produkter.</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/yorijomo/"><img src="billeder/ikoner/instagram.svg"
+                    alt="En simpel illustration af Instagrams logo."></a>
+            <a href="https://www.facebook.com/yorijomo?locale=da_DK"><img src="billeder/ikoner/facebook.svg"
+                    alt="En simpel illustration af Facebooks logo."></a>
+            <a class="yori-jomo" href="https://www.yorijomo.com/en-dk">© 2026 Yori Jomo</a>
+        </div>
+    </footer>
+    <script src="burger_menu.js"></script>
 </body>
 
 </html>
