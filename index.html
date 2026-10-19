@@ -17,59 +17,97 @@
         rel="stylesheet">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.js">
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <nav class="header-menu">
             <div id="logotype-wrapper" class="logo">
-                <a href="index.html"><img src="/billeder/logo/logo.svg" alt="Yori Jomo logo"></a>
+                <a href="index.html"><img class="logoname" src="/billeder/logo/logo.svg" alt="Yori Jomo logo"></a>
             </div>
-            <ul class="menu">
-                <li>
-                    <a class="menu-link" href="produktliste.html">Produkter</a>
-                </li>
-                <li>
-                    <a class="menu-link" href="omos.html">Om os</a>
-                </li>
-                <li>
-                    <a class="menu-link" href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
+            <div class="menulinks">
+                <ul class="menu">
+                    <li>
+                        <a class="menu-link" href="produktliste.html">Produkter</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" href="omos.html">Om os</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
             <button class="burger">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </button>
-            <input class="search-bar" type="text" placeholder="Search..">
+            <input class="search-bar" type="text" placeholder="Search.." hidden>
+
+
             <button class="searc-button" type="submit">
                 <i><img class="search-icon" src="billeder/ikoner/search_icon.svg" alt=""></i>
             </button>
             <button class="shopping-bag">
                 <img class="shopping-icon" src="billeder/ikoner/shopping_bag_icon.svg" alt="">
             </button>
+
         </nav>
     </header>
     <main>
         <section class="hero-unit">
-            <h1>Velkommen</h1>
-            <p>Smukke kvalitet sko & bælter lavet i Toscana, Italien - Til den kvinde, der ved, hvad hun vil have.</p>
-            <a href="produktliste.html">Se produkter</a>
-            <img src="billeder/index/hero_unit_skirt_shoes_index.webp"
+
+            <div class="titlescreen">
+                <h1>Velkommen</h1>
+                <p class="p1">Smukke kvalitet sko & bælter lavet i Toscana, Italien - Til den kvinde, der ved, hvad hun
+                    vil have.
+                </p>
+                <a class="button2" href="produktliste.html">Se produkter ></a>
+            </div>
+
+            <img class="blueksirt" src="billeder/index/hero_unit_skirt_shoes_index.webp"
                 alt="Fra hoften og ned ben, med en lang lyseblå silke nederdel og et par Yori Jomo ALBA Loafers Nappa Merlot.">
+
             <div class="index-textbox">
-                <h2>Om os</h2>
-                <img src="billeder/index/shoemaker_index.webp"
-                    alt="Nærbillede af et par hænder, som er i gang med lave sko på en traditionel måde.">
-                <p>Læs mere om os og vores værdier her hos Yori Jomo.</p>
-                <a href="omos.html">Gå til Om os</a>
+                <h2 class="omosh2">Om os</h2>
+                <div class="omos1">
+                    <img class="shokemaker" src="billeder/index/shoemaker_index.webp"
+                        alt="Nærbillede af et par hænder, som er i gang med lave sko på en traditionel måde.">
+                    <div class="omos2">
+                        <p class="hvidtekst">Læs mere om os og vores værdier her hos Yori Jomo.</p>
+                        <a class="button" href="omos.html">Gå til Om os ></a>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section class="index-flere-produkt-billeder">
-            <h2>Se flere af vores produkter her</h2>
-            <img src="billeder/index/leaning_skirt_shoes_index.webp" alt="">
-            <img src="billeder/index/mary_jane_flats_nero_index_img.webp" alt="">
-            <img src="billeder/index/snakeskin_shoes_index.webp" alt="">
+            <h2 class="seflereprodukter">Se flere af vores produkter her</h2>
+
+            <div class="flereprodukterlineup">
+
+                <a href="produktliste.html" class="produkt-hover">
+                    <img class="billederlineuo" src="billeder/index/leaning_skirt_shoes_index.webp"
+                        alt="Sko med nederdel">
+                    <span class="hover-tekst">Se vores kollektion</span>
+                </a>
+
+                <a href="produktliste.html" class="produkt-hover">
+                    <img class="billederlineuo" src="billeder/index/mary_jane_flats_nero_index_img.webp"
+                        alt="Mary Jane Flats">
+                    <span class="hover-tekst">Se vores kollektion</span>
+                </a>
+
+                <a href="produktliste.html" class="produkt-hover">
+                    <img class="billederlineuo" src="billeder/index/snakeskin_shoes_index.webp"
+                        alt="Sko med slangeskindsmønster">
+                    <span class="hover-tekst">Se vores kollektion</span>
+                </a>
+
+            </div>
         </section>
     </main>
     <footer>
@@ -81,14 +119,14 @@
             </ul>
         </div>
         <div class="mail-list-button">
-            <button>Bliv en del af vores email liste</button>
-            <p>Få ekslusive tilbud og tidlig adgang til nye produkter.</p>
+            <a class="button2" href="kontakt.html">Bliv en del af vores email liste ></a>
+            <p class="creategap">Få ekslusive tilbud og tidlig adgang til nye produkter.</p>
         </div>
         <div class="socials">
-            <a href="https://www.instagram.com/yorijomo/"><img src="billeder/ikoner/instagram.svg"
+            <a href="https://www.instagram.com/yorijomo/"><img class="footerpicture" src="billeder/ikoner/instagram.svg"
                     alt="En simpel illustration af Instagrams logo."></a>
-            <a href="https://www.facebook.com/yorijomo?locale=da_DK"><img src="billeder/ikoner/facebook.svg"
-                    alt="En simpel illustration af Facebooks logo."></a>
+            <a href="https://www.facebook.com/yorijomo?locale=da_DK"><img class="footerpicture"
+                    src="billeder/ikoner/facebook.svg" alt="En simpel illustration af Facebooks logo."></a>
             <a class="yori-jomo" href="https://www.yorijomo.com/en-dk">© 2026 Yori Jomo</a>
         </div>
     </footer>
